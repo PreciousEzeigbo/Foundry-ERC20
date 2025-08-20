@@ -231,7 +231,6 @@ ZKSYNC_SEPOLIA_RPC_URL=your_zksync_sepolia_rpc
 | `make test`      | Run all tests            |
 | `forge coverage` | Generate coverage report |
 
-```
 
 ## 📝 Smart Contract Security
 
@@ -282,4 +281,4 @@ For support and questions:
 - **[Solidity](https://soliditylang.org/)** - Smart contract programming language
 
 ---
-```
+
