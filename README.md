@@ -13,7 +13,6 @@ A comprehensive ERC20 token implementation built with Foundry, featuring both st
 - [Deployment](#deployment)
 - [Contract Details](#contract-details)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -231,31 +230,7 @@ ZKSYNC_SEPOLIA_RPC_URL=your_zksync_sepolia_rpc
 | `make build`     | Compile contracts        |
 | `make test`      | Run all tests            |
 | `forge coverage` | Generate coverage report |
-| `make format`    | Format code              |
-| `make clean`     | Clean build artifacts    |
-| `make snapshot`  | Generate gas snapshots   |
 
-## 🔧 Advanced Usage
-
-### Gas Optimization
-
-```bash
-forge test --gas-report
-```
-
-### Contract Verification
-
-```bash
-make verify
-```
-
-### Custom Network Deployment
-
-```bash
-forge script script/DeployOurToken.s.sol:DeployOurToken \
-  --rpc-url <YOUR_RPC_URL> \
-  --private-key <YOUR_PRIVATE_KEY> \
-  --broadcast
 ```
 
 ## 📝 Smart Contract Security
@@ -291,9 +266,6 @@ forge script script/DeployOurToken.s.sol:DeployOurToken \
 - Follow Solidity style guidelines
 - Update documentation for any changes
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Support
 
@@ -310,5 +282,4 @@ For support and questions:
 - **[Solidity](https://soliditylang.org/)** - Smart contract programming language
 
 ---
-
-**Happy coding! 🚀**
+```
